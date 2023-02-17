@@ -14,6 +14,8 @@
 		8E52AA2A29958CC30043E156 /* Bucket_List_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E52AA2929958CC30043E156 /* Bucket_List_AppTests.swift */; };
 		8E52AA3429958CC30043E156 /* Bucket_List_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E52AA3329958CC30043E156 /* Bucket_List_AppUITests.swift */; };
 		8E52AA3629958CC30043E156 /* Bucket_List_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E52AA3529958CC30043E156 /* Bucket_List_AppUITestsLaunchTests.swift */; };
+		8E52AA4329958E0A0043E156 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E52AA4229958E0A0043E156 /* Location.swift */; };
+		8E52AA452995978C0043E156 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E52AA442995978C0043E156 /* EditView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		8E52AA2F29958CC30043E156 /* Bucket List AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bucket List AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E52AA3329958CC30043E156 /* Bucket_List_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bucket_List_AppUITests.swift; sourceTree = "<group>"; };
 		8E52AA3529958CC30043E156 /* Bucket_List_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bucket_List_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8E52AA4229958E0A0043E156 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		8E52AA442995978C0043E156 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			children = (
 				8E52AA1829958CBF0043E156 /* Bucket_List_AppApp.swift */,
 				8E52AA1A29958CBF0043E156 /* ContentView.swift */,
+				8E52AA442995978C0043E156 /* EditView.swift */,
+				8E52AA4229958E0A0043E156 /* Location.swift */,
 				8E52AA1C29958CC30043E156 /* Assets.xcassets */,
 				8E52AA1E29958CC30043E156 /* Preview Content */,
 			);
@@ -258,6 +264,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E52AA1B29958CBF0043E156 /* ContentView.swift in Sources */,
+				8E52AA4329958E0A0043E156 /* Location.swift in Sources */,
+				8E52AA452995978C0043E156 /* EditView.swift in Sources */,
 				8E52AA1929958CBF0043E156 /* Bucket_List_AppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
