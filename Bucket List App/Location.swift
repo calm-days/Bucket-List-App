@@ -1,9 +1,4 @@
-//
-//  Location.swift
-//  Bucket List App
-//
-//  Created by Roman Liukevich on 2/9/23.
-//
+
 
 import Foundation
 import MapKit
